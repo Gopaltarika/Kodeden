@@ -39,7 +39,7 @@ const MyNav = () => {
                     <div className="container d-flex flex-column align-items-center">
                         <h1 className='m-0 text-center fw-semibold fs-3xl lh-5xl text-uppercase jost text-white' data-aos="zoom-in">Start the Mini-Course: <span className='text-gradient'>Rapidly Learning New <br className='d-lg-block d-none' /> Technical Skills</span></h1>
                         <p className='m-0 jost text-white pt-20 text-uppercase text-center fs-xl lh-3xl pb-4 mb-1 fw-semibold' data-aos="zoom-in">Learn All The Skills You Need To Become a <span className='d-sm-block c-low-gray'>Software Engineer!</span></p>
-                        <img src={ellipis} alt="ellipis" className='position-absolute d-md-none top-22' />
+                        <img src={ellipis} alt="ellipis" className='position-absolute d-none d-md-block top-22' />
                         <img className='max-w-996 w-100 video-img' src={imgvideo} alt="video-img" data-aos="zoom-in" />
                     </div>
                 </header>
