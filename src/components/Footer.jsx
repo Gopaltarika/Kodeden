@@ -7,8 +7,8 @@ import linkdin from "../assets/images/svg/linkdin.svg";
 const Footer = () => {
     return (
         <div className='mt-122 border-foot'>
-            <div className="container py-65 d-flex flex-column align-items-center gap-1 flex-wrap justify-content-center justify-content-sm-end">
-                <div className='w-100 d-flex justify-content-lg-end justify-content-center gap-2'>
+            <div className="container py-65 d-flex flex-column align-items-center gap-1 justify-content-center justify-content-sm-end">
+                <div className='w-100 d-flex flex-wrap justify-content-lg-end justify-content-center gap-2'>
                     <a href="#" className=' opacity-75 text-white fw-normal fs-lg text-nowrap'>Privacy Policy |</a>
                     <a href="#" className=' opacity-75 text-white fw-normal fs-lg text-nowrap'> Terms of Service | </a>
                     <a href="#" className=' opacity-75 text-white fw-normal fs-lg text-nowrap'>Cookie Policy</a>

@@ -326,17 +326,17 @@ nav div ul li a:hover {
   border: 0.75px solid #E4E4E4;
   border-radius: 2px;
   padding: 16px 4px 29px 12px;
-  max-width: 364px;
+  height: 352px !important;
 }
 
 .next-btn {
   right: -5%;
-  top: 50%;
+  bottom: 45%;
 }
 
 .prev-btn {
   left: -5%;
-  top: 50%;
+  bottom: 45%;
 }
 
 .border-foot {
@@ -354,26 +354,32 @@ nav div ul li a:hover {
 .dog {
   max-width: 368px;
 }
-.top-22{
+
+.top-22 {
   top: 27%;
   right: 2%;
 }
-.ellipis-second{
+
+.ellipis-second {
   bottom: 15%;
   left: 0%;
 }
-.ellipis3{
+
+.ellipis3 {
   bottom: 0;
   right: 0;
 }
-.ellipis4{
+
+.ellipis4 {
   top: -30%;
   left: 1%;
 }
-.ellipis5{
+
+.ellipis5 {
   bottom: 5%;
   right: 1%;
 }
+
 .backtop {
   width: 45px;
   height: 45px;
@@ -382,7 +388,8 @@ nav div ul li a:hover {
   right: 0;
   margin-bottom: 30px;
   margin-right: 30px;
-} 
+}
+
 .anime-bounce {
   animation: bounce 1s linear infinite alternate;
 }
@@ -415,13 +422,13 @@ nav div ul li a:hover {
 
   0%,
   100% {
-      transform: translateY(-15px);
-      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    transform: translateY(-15px);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
 
   50% {
-      transform: none;
-      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
 
@@ -429,52 +436,71 @@ nav div ul li a:hover {
 
   0%,
   100% {
-      transform: translateY(-10px);
+    transform: translateY(-10px);
   }
 
   50% {
-      transform: none;
+    transform: none;
   }
 }
 
 @keyframes spin89345 {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
+
 /* ==============================Mediaquery============================ */
 @media (min-width:1400px) and (max-width:1440px) {
   .container {
     max-width: 1140px !important;
   }
 }
+
 @media (min-width:1440px) {
-  .top-22{
+  .top-22 {
     right: 7%;
   }
-  .ellipis-second{
+
+  .ellipis-second {
     left: 2%;
   }
-  .ellipis3{
+
+  .ellipis3 {
     bottom: 10%;
     right: 3%;
   }
-  .ellipis4{
+
+  .ellipis4 {
     top: -30%;
     left: 5%;
   }
-  .ellipis5{
+
+  .ellipis5 {
     bottom: 15%;
     right: 5%;
   }
 }
+
 @media (max-width:1200px) {
   .text-align {
     text-wrap: wrap;
+  }
+}
+
+@media (max-width:1024.1px) {
+  .next-btn {
+    bottom: 0;
+    right: 20%;
+  }
+
+  .prev-btn {
+    bottom: 0;
+    left: 20%;
   }
 }
 
@@ -482,7 +508,8 @@ nav div ul li a:hover {
   .six-month-img {
     height: 600px;
   }
-  .top-22{
+
+  .top-22 {
     right: 5%;
   }
 }
@@ -499,9 +526,16 @@ nav div ul li a:hover {
     z-index: 1;
     transition: .6s;
   }
-.over-hide{
-  overflow: hidden;
+.next-btn{
+  right: 5%;
 }
+.prev-btn{
+ left: 5%;
+}
+  .over-hide {
+    overflow: hidden;
+  }
+
   .box-shine:hover {
     transform: translateY(0%);
   }
@@ -540,7 +574,7 @@ nav div ul li a:hover {
 
   nav label span {
     height: 5px;
-    width: 40px;
+    width: 35px;
     background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%);
     border-radius: 25px;
     transition: .4s;
@@ -594,7 +628,21 @@ nav div ul li a:hover {
   .dog {
     max-width: 280px;
   }
-  .py-65{
-    padding:20px 0;
+
+  .py-65 {
+    padding: 20px 0;
+  }
+  .next-btn{
+    right: 0;
+    bottom: 10%;
+  }
+  .prev-btn{
+    left: 0;
+    bottom: 10%;
+  }
+}
+@media (max-width:350px) {
+  .student-sec-card{
+    height: 400px !important;
   }
 }

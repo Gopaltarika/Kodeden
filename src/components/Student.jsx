@@ -16,12 +16,15 @@ const Student = () => {
                 <h2 className='c-low-gray fs-4xl fw-medium text-center text-capitalize lh-7xl m-0 pb-5' data-aos="fade-down">What our <span className='text-gradient'>students</span> are saying</h2>
                 <div className='w-100'>
                     <Swiper
-                    data-aos="fade-down"
+                        data-aos="fade-down"
                         breakpoints={{
                             576: {
                                 slidesPerView: 1,
                             },
                             992: {
+                                slidesPerView: 2,
+                            },
+                            1024.1: {
                                 slidesPerView: 2,
                             },
                             1200: {
