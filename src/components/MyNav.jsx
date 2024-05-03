@@ -26,9 +26,9 @@ const MyNav = () => {
                         </ul>
                         <div className='d-flex gap-4 align-items-center'>
                             <button className='cmn-btn c-white-100 jost fs-xsm lh-xsm'>Get Started</button>
-                            {navshow ? (<label className='menu d-flex flex-column gap-2 position-relative z-2' onClick={() => setnavshow(!navshow)}>
+                            {navshow ? (<label className='menu d-flex flex-column gap-2 position-relative z-2' onClick={view}>
                                 <span className='position-absolute span1'></span><span className='span2'></span>
-                            </label>) : (<label className=' d-flex flex-column gap-2 position-relative z-2' onClick={() => setnavshow(!navshow)}>
+                            </label>) : (<label className=' d-flex flex-column gap-2 position-relative z-2' onClick={view}>
                                 <span></span><span></span><span></span>
                             </label>)
                             }
